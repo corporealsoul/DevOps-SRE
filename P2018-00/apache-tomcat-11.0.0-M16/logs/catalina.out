@@ -1,0 +1,44 @@
+Error: LinkageError occurred while loading main class org.apache.catalina.startup.Bootstrap
+	java.lang.UnsupportedClassVersionError: org/apache/catalina/startup/Bootstrap has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+Error: LinkageError occurred while loading main class org.apache.catalina.startup.Bootstrap
+	java.lang.UnsupportedClassVersionError: org/apache/catalina/startup/Bootstrap has been compiled by a more recent version of the Java Runtime (class file version 65.0), this version of the Java Runtime only recognizes class file versions up to 61.0
+11-Feb-2024 23:00:46.673 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M16
+11-Feb-2024 23:00:46.677 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 4 2024 17:56:17 UTC
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-21.0.2.0.13-1.el9.x86_64
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16
+11-Feb-2024 23:00:46.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16
+11-Feb-2024 23:00:46.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/P2018-00/tomcat-11/conf/logging.properties
+11-Feb-2024 23:00:46.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+11-Feb-2024 23:00:46.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+11-Feb-2024 23:00:46.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+11-Feb-2024 23:00:46.688 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/P2018-00/tomcat-11
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/P2018-00/tomcat-11
+11-Feb-2024 23:00:46.689 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/P2018-00/tomcat-11/temp
+11-Feb-2024 23:00:46.690 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+11-Feb-2024 23:00:47.165 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+11-Feb-2024 23:00:47.201 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [781] milliseconds
+11-Feb-2024 23:00:47.254 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+11-Feb-2024 23:00:47.255 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M16]
+11-Feb-2024 23:00:47.265 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/ROOT]
+11-Feb-2024 23:00:47.625 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/ROOT] has finished in [360] ms
+11-Feb-2024 23:00:47.626 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/docs]
+11-Feb-2024 23:00:47.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/docs] has finished in [33] ms
+11-Feb-2024 23:00:47.659 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/examples]
+11-Feb-2024 23:00:48.534 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/examples] has finished in [875] ms
+11-Feb-2024 23:00:48.535 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/host-manager]
+11-Feb-2024 23:00:48.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/host-manager] has finished in [21] ms
+11-Feb-2024 23:00:48.556 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager]
+11-Feb-2024 23:00:48.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager] has finished in [19] ms
+11-Feb-2024 23:00:48.578 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+11-Feb-2024 23:00:48.603 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1397] milliseconds
