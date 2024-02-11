@@ -38,3 +38,7 @@
 11-Feb-2024 23:00:48.576 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager] has finished in [19] ms
 11-Feb-2024 23:00:48.578 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
 11-Feb-2024 23:00:48.603 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [1397] milliseconds
+11-Feb-2024 23:57:41.469 INFO [Catalina-utility-2] org.apache.catalina.users.MemoryUserDatabase.backgroundProcess Reloading memory user database [UserDatabase] from updated source [file:/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/conf/tomcat-users.xml]
+11-Feb-2024 23:58:51.508 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/manager]
+11-Feb-2024 23:58:51.523 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager]
+11-Feb-2024 23:58:51.557 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager] has finished in [34] ms
