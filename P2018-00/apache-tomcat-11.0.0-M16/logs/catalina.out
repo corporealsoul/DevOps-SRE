@@ -294,3 +294,24 @@ Error: LinkageError occurred while loading main class org.apache.catalina.startu
 		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1059)
 		... 10 more
 12-Feb-2024 23:03:13.198 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [925] milliseconds
+12-Feb-2024 23:14:28.160 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+12-Feb-2024 23:14:28.167 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
+12-Feb-2024 23:14:28.195 INFO [http-nio-9090-exec-9] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [28] ms
+12-Feb-2024 23:14:28.257 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maven-project-war]
+12-Feb-2024 23:14:28.263 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war]
+12-Feb-2024 23:14:28.279 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war] has finished in [16] ms
+12-Feb-2024 23:14:28.343 INFO [http-nio-9090-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+12-Feb-2024 23:14:28.353 INFO [http-nio-9090-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
+12-Feb-2024 23:14:28.849 INFO [http-nio-9090-exec-7] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [497] ms
+12-Feb-2024 23:14:28.917 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maven-project-war]
+12-Feb-2024 23:14:28.925 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war]
+12-Feb-2024 23:14:28.944 INFO [http-nio-9090-exec-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war] has finished in [19] ms
+12-Feb-2024 23:14:28.992 INFO [http-nio-9090-exec-8] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+12-Feb-2024 23:14:29.002 INFO [http-nio-9090-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
+12-Feb-2024 23:14:29.014 INFO [http-nio-9090-exec-8] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [12] ms
+12-Feb-2024 23:14:29.054 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/maven-project-war]
+12-Feb-2024 23:14:29.059 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war]
+12-Feb-2024 23:14:29.093 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war] has finished in [34] ms
+12-Feb-2024 23:14:29.154 INFO [http-nio-9090-exec-6] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
+12-Feb-2024 23:14:29.160 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
+12-Feb-2024 23:14:29.173 INFO [http-nio-9090-exec-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [13] ms
