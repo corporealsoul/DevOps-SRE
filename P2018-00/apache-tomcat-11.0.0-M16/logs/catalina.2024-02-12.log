@@ -177,3 +177,72 @@
 12-Feb-2024 00:19:13.960 INFO [http-nio-9090-exec-7] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/sample]
 12-Feb-2024 00:19:13.967 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
 12-Feb-2024 00:19:14.000 INFO [http-nio-9090-exec-5] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [33] ms
+12-Feb-2024 00:27:32.251 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+12-Feb-2024 00:27:32.272 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-0:0:0:0:0:0:0:1-9009"]
+12-Feb-2024 00:27:32.272 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+12-Feb-2024 00:27:32.371 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+12-Feb-2024 00:27:32.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+12-Feb-2024 00:27:32.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-0:0:0:0:0:0:0:1-9009"]
+12-Feb-2024 00:27:32.417 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-0:0:0:0:0:0:0:1-9009"]
+12-Feb-2024 23:03:11.661 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/11.0.0-M16
+12-Feb-2024 23:03:11.664 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 4 2024 17:56:17 UTC
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 11.0.0.0
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-21-openjdk-21.0.2.0.13-1.el9.x86_64
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           21.0.2+13-LTS
+12-Feb-2024 23:03:11.666 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+12-Feb-2024 23:03:11.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16
+12-Feb-2024 23:03:11.667 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16
+12-Feb-2024 23:03:11.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/P2018-00/tomcat-11/conf/logging.properties
+12-Feb-2024 23:03:11.678 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+12-Feb-2024 23:03:11.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+12-Feb-2024 23:03:11.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+12-Feb-2024 23:03:11.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+12-Feb-2024 23:03:11.679 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/P2018-00/tomcat-11
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/P2018-00/tomcat-11
+12-Feb-2024 23:03:11.680 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/P2018-00/tomcat-11/temp
+12-Feb-2024 23:03:11.686 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+12-Feb-2024 23:03:12.236 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+12-Feb-2024 23:03:12.267 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-0:0:0:0:0:0:0:1-9009"]
+12-Feb-2024 23:03:12.270 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [936] milliseconds
+12-Feb-2024 23:03:12.337 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+12-Feb-2024 23:03:12.338 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.0-M16]
+12-Feb-2024 23:03:12.377 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war]
+12-Feb-2024 23:03:12.719 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war] has finished in [342] ms
+12-Feb-2024 23:03:12.723 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war]
+12-Feb-2024 23:03:12.762 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war] has finished in [39] ms
+12-Feb-2024 23:03:12.763 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/ROOT]
+12-Feb-2024 23:03:12.774 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/ROOT] has finished in [11] ms
+12-Feb-2024 23:03:12.775 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/docs]
+12-Feb-2024 23:03:12.791 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/docs] has finished in [16] ms
+12-Feb-2024 23:03:12.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/examples]
+12-Feb-2024 23:03:13.141 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/examples] has finished in [350] ms
+12-Feb-2024 23:03:13.142 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/host-manager]
+12-Feb-2024 23:03:13.163 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/host-manager] has finished in [21] ms
+12-Feb-2024 23:03:13.164 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager]
+12-Feb-2024 23:03:13.184 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/manager] has finished in [20] ms
+12-Feb-2024 23:03:13.187 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+12-Feb-2024 23:03:13.196 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to start component [Connector["ajp-nio-0:0:0:0:0:0:0:1-9009"]]
+	org.apache.catalina.LifecycleException: Protocol handler start failed
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1062)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardService.startInternal(StandardService.java:450)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.core.StandardServer.startInternal(StandardServer.java:913)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:171)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:793)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:344)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:475)
+	Caused by: java.lang.IllegalArgumentException: The AJP Connector is configured with secretRequired="true" but the secret attribute is either null or "". This combination is not valid.
+		at org.apache.coyote.ajp.AbstractAjpProtocol.start(AbstractAjpProtocol.java:255)
+		at org.apache.catalina.connector.Connector.startInternal(Connector.java:1059)
+		... 10 more
+12-Feb-2024 23:03:13.198 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [925] milliseconds
