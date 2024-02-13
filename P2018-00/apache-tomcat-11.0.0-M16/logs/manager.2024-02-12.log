@@ -55,3 +55,148 @@
 12-Feb-2024 23:14:29.148 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
 12-Feb-2024 23:14:29.159 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
 12-Feb-2024 23:14:29.159 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:16:19.165 INFO [http-nio-9090-exec-12] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.170 INFO [http-nio-9090-exec-11] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.173 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:16:19.194 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:16:19.194 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:16:19.258 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.260 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.262 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:16:19.282 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:16:19.282 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:16:19.362 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.364 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.368 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:16:19.380 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:16:19.380 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:16:19.447 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.452 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.458 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:16:19.469 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:16:19.470 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:16:19.528 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.532 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.537 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:16:19.556 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:16:19.559 INFO [http-nio-9090-exec-14] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:16:19.648 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.651 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.655 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:16:19.663 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:16:19.663 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:16:19.743 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.745 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:16:19.746 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:16:19.756 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:16:19.756 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:22:55.819 INFO [http-nio-9090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:55.823 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:55.830 INFO [http-nio-9090-exec-17] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:22:55.872 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:22:55.872 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:22:55.972 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:55.975 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:55.978 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:22:55.986 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:22:55.986 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:22:56.045 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.049 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.050 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:22:56.068 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:22:56.068 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:22:56.124 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.127 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.130 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:22:56.139 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:22:56.140 INFO [http-nio-9090-exec-16] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:22:56.206 INFO [http-nio-9090-exec-15] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.208 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.211 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:22:56.221 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:22:56.221 INFO [http-nio-9090-exec-24] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:22:56.266 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.269 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.270 INFO [http-nio-9090-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:22:56.280 INFO [http-nio-9090-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:22:56.280 INFO [http-nio-9090-exec-22] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:22:56.330 INFO [http-nio-9090-exec-25] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.334 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:22:56.339 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:22:56.351 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:22:56.351 INFO [http-nio-9090-exec-19] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:24:17.455 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.458 INFO [http-nio-9090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.460 INFO [http-nio-9090-exec-29] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:24:17.473 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:24:17.474 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:24:17.549 INFO [http-nio-9090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.550 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.552 INFO [http-nio-9090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:24:17.562 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:24:17.563 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:24:17.597 INFO [http-nio-9090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.600 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.602 INFO [http-nio-9090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:24:17.609 INFO [http-nio-9090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:24:17.609 INFO [http-nio-9090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:24:17.680 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.682 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.684 INFO [http-nio-9090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:24:17.692 INFO [http-nio-9090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:24:17.692 INFO [http-nio-9090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:24:17.759 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.760 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.764 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:24:17.773 INFO [http-nio-9090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:24:17.773 INFO [http-nio-9090-exec-33] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:24:17.803 INFO [http-nio-9090-exec-27] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.806 INFO [http-nio-9090-exec-30] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:17.808 INFO [http-nio-9090-exec-28] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:24:17.817 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:24:17.817 INFO [http-nio-9090-exec-20] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:24:18.004 INFO [http-nio-9090-exec-23] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:18.007 INFO [http-nio-9090-exec-26] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:24:18.008 INFO [http-nio-9090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:24:18.030 INFO [http-nio-9090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:24:18.030 INFO [http-nio-9090-exec-31] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:33:25.955 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-Feb-2024 23:33:25.956 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: init: Global resources are available
+12-Feb-2024 23:33:25.960 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log HTMLManager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.628 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Associated with Deployer 'Catalina:type=Deployer,host=localhost'
+12-Feb-2024 23:44:49.629 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: init: Global resources are available
+12-Feb-2024 23:44:49.629 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.633 INFO [http-nio-9090-exec-3] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.636 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:44:49.668 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:44:49.668 INFO [http-nio-9090-exec-4] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:44:49.742 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.746 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.748 INFO [http-nio-9090-exec-9] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:44:49.757 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:44:49.757 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:44:49.787 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.789 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.790 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:44:49.800 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:44:49.800 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:44:49.830 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.832 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.833 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:44:49.839 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:44:49.839 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:44:49.869 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.870 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.871 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:44:49.880 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:44:49.880 INFO [http-nio-9090-exec-2] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
+12-Feb-2024 23:44:49.913 INFO [http-nio-9090-exec-10] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.914 INFO [http-nio-9090-exec-6] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.915 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/maven-project-war'
+12-Feb-2024 23:44:49.920 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/maven-project-war'
+12-Feb-2024 23:44:49.920 INFO [http-nio-9090-exec-8] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/maven-project-war.war
+12-Feb-2024 23:44:49.967 INFO [http-nio-9090-exec-1] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.969 INFO [http-nio-9090-exec-5] org.apache.catalina.core.ApplicationContext.log Manager: list: Listing contexts for virtual host 'localhost'
+12-Feb-2024 23:44:49.971 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: undeploy: Undeploying web application at '/sample'
+12-Feb-2024 23:44:49.983 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: deploy: Deploying web application '/sample'
+12-Feb-2024 23:44:49.983 INFO [http-nio-9090-exec-7] org.apache.catalina.core.ApplicationContext.log Manager: Uploading WAR file to /home/anup/DevOps-SRE/P2018-00/apache-tomcat-11.0.0-M16/webapps/sample.war
