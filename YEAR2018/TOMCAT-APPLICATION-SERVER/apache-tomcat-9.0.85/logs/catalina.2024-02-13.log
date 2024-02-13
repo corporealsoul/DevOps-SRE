@@ -1,0 +1,273 @@
+13-Feb-2024 15:36:26.307 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+13-Feb-2024 15:36:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+13-Feb-2024 15:36:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+13-Feb-2024 15:36:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Feb-2024 15:36:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+13-Feb-2024 15:36:26.315 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2024 15:36:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-2.el9.x86_64
+13-Feb-2024 15:36:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Feb-2024 15:36:26.316 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+13-Feb-2024 15:36:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:36:26.317 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/conf/logging.properties
+13-Feb-2024 15:36:26.334 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:36:26.335 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/temp
+13-Feb-2024 15:36:26.336 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Feb-2024 15:36:26.756 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:36:26.784 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [664] milliseconds
+13-Feb-2024 15:36:26.839 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2024 15:36:26.839 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+13-Feb-2024 15:36:26.845 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT]
+13-Feb-2024 15:36:27.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT] has finished in [232] ms
+13-Feb-2024 15:36:27.078 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs]
+13-Feb-2024 15:36:27.110 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs] has finished in [32] ms
+13-Feb-2024 15:36:27.111 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples]
+13-Feb-2024 15:36:27.360 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples] has finished in [250] ms
+13-Feb-2024 15:36:27.361 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager]
+13-Feb-2024 15:36:27.384 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager] has finished in [23] ms
+13-Feb-2024 15:36:27.385 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager]
+13-Feb-2024 15:36:27.410 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager] has finished in [25] ms
+13-Feb-2024 15:36:27.412 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:36:27.441 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [655] milliseconds
+13-Feb-2024 15:53:27.418 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+13-Feb-2024 15:53:27.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+13-Feb-2024 15:53:27.421 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-2.el9.x86_64
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:53:27.422 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:53:27.433 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2024 15:53:27.434 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2024 15:53:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Feb-2024 15:53:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Feb-2024 15:53:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2024 15:53:27.435 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/conf/logging.properties
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:53:27.436 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/temp
+13-Feb-2024 15:53:27.437 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Feb-2024 15:53:27.659 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:53:27.669 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-9090"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1011)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:554)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:1039)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:127)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:724)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:746)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:307)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:477)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:276)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:231)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1332)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1345)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:654)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:75)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1009)
+		... 13 more
+13-Feb-2024 15:53:27.669 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [397] milliseconds
+13-Feb-2024 15:53:27.699 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2024 15:53:27.699 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+13-Feb-2024 15:53:27.705 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT]
+13-Feb-2024 15:53:27.957 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT] has finished in [251] ms
+13-Feb-2024 15:53:27.958 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs]
+13-Feb-2024 15:53:27.985 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs] has finished in [27] ms
+13-Feb-2024 15:53:27.988 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples]
+13-Feb-2024 15:53:28.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples] has finished in [257] ms
+13-Feb-2024 15:53:28.245 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager]
+13-Feb-2024 15:53:28.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager] has finished in [22] ms
+13-Feb-2024 15:53:28.268 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager]
+13-Feb-2024 15:53:28.292 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager] has finished in [24] ms
+13-Feb-2024 15:53:28.303 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [633] milliseconds
+13-Feb-2024 15:53:28.305 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [9005] (base port [9005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:581)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:864)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:810)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:347)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:478)
+13-Feb-2024 15:53:28.305 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:53:28.305 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Feb-2024 15:53:28.324 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:53:28.325 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:39.100 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Feb-2024 15:55:39.100 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:39.106 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Feb-2024 15:55:39.131 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:39.140 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:58.135 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-2.el9.x86_64
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:55:58.137 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/conf/logging.properties
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 15:55:58.148 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/temp
+13-Feb-2024 15:55:58.149 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Feb-2024 15:55:58.386 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:58.399 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [408] milliseconds
+13-Feb-2024 15:55:58.430 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2024 15:55:58.430 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+13-Feb-2024 15:55:58.435 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT]
+13-Feb-2024 15:55:58.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT] has finished in [168] ms
+13-Feb-2024 15:55:58.604 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs]
+13-Feb-2024 15:55:58.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs] has finished in [16] ms
+13-Feb-2024 15:55:58.620 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples]
+13-Feb-2024 15:55:58.789 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples] has finished in [169] ms
+13-Feb-2024 15:55:58.792 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager]
+13-Feb-2024 15:55:58.813 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager] has finished in [21] ms
+13-Feb-2024 15:55:58.821 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager]
+13-Feb-2024 15:55:58.834 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager] has finished in [21] ms
+13-Feb-2024 15:55:58.843 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 15:55:58.853 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [452] milliseconds
+13-Feb-2024 17:28:49.589 INFO [Thread-1] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 17:28:49.602 INFO [Thread-1] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Feb-2024 17:28:49.668 INFO [Thread-1] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 17:28:49.697 INFO [Thread-1] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:09:58.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-2.el9.x86_64
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 20:09:58.979 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 20:09:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2024 20:09:58.996 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2024 20:09:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Feb-2024 20:09:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Feb-2024 20:09:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2024 20:09:58.997 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/conf/logging.properties
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 20:09:58.998 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/temp
+13-Feb-2024 20:09:59.000 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Feb-2024 20:09:59.368 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:09:59.383 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [731] milliseconds
+13-Feb-2024 20:09:59.430 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2024 20:09:59.430 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+13-Feb-2024 20:09:59.436 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT]
+13-Feb-2024 20:09:59.702 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT] has finished in [266] ms
+13-Feb-2024 20:09:59.703 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs]
+13-Feb-2024 20:09:59.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs] has finished in [28] ms
+13-Feb-2024 20:09:59.731 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples]
+13-Feb-2024 20:10:00.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples] has finished in [356] ms
+13-Feb-2024 20:10:00.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager]
+13-Feb-2024 20:10:00.105 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager] has finished in [17] ms
+13-Feb-2024 20:10:00.106 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager]
+13-Feb-2024 20:10:00.122 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager] has finished in [16] ms
+13-Feb-2024 20:10:00.125 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:00.143 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [759] milliseconds
+13-Feb-2024 20:10:17.519 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+13-Feb-2024 20:10:17.520 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:17.524 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+13-Feb-2024 20:10:17.576 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:17.602 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:40.804 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/9.0.85
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Jan 5 2024 08:28:07 UTC
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 9.0.85.0
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.14.0-362.18.1.el9_3.x86_64
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-17-openjdk-17.0.10.0.7-2.el9.x86_64
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           17.0.10+7-LTS
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Red Hat, Inc.
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 20:10:40.809 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+13-Feb-2024 20:10:40.818 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/conf/logging.properties
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9
+13-Feb-2024 20:10:40.819 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/tomcat-9/temp
+13-Feb-2024 20:10:40.820 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/usr/java/packages/lib:/usr/lib64:/lib64:/lib:/usr/lib]
+13-Feb-2024 20:10:41.021 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:41.037 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [361] milliseconds
+13-Feb-2024 20:10:41.059 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+13-Feb-2024 20:10:41.059 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/9.0.85]
+13-Feb-2024 20:10:41.064 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT]
+13-Feb-2024 20:10:41.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/ROOT] has finished in [170] ms
+13-Feb-2024 20:10:41.234 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs]
+13-Feb-2024 20:10:41.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/docs] has finished in [15] ms
+13-Feb-2024 20:10:41.249 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples]
+13-Feb-2024 20:10:41.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/examples] has finished in [143] ms
+13-Feb-2024 20:10:41.392 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager]
+13-Feb-2024 20:10:41.404 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/host-manager] has finished in [12] ms
+13-Feb-2024 20:10:41.405 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager]
+13-Feb-2024 20:10:41.417 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/anup/DevOps-SRE/YEAR2018/TOMCAT-APPLICATION-SERVER/apache-tomcat-9.0.85/webapps/manager] has finished in [12] ms
+13-Feb-2024 20:10:41.420 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-9090"]
+13-Feb-2024 20:10:41.449 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [411] milliseconds
