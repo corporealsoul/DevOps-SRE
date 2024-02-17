@@ -1,0 +1,92 @@
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ vmstat
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ sudo vmstat -m 5 10
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ mpstat
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ iostat
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ df -h
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ netstat
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ iftop
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ nmon
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ sar -u 1 5
+
+
+Download VirtualBox for Linux Hosts,
+https://www.virtualbox.org/wiki/Linux_Downloads%20
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ wget https://download.virtualbox.org/virtualbox/7.0.14/virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ sudo dpkg -i virtualbox-7.0_7.0.14-161095~Ubuntu~jammy_amd64.deb
+or,
+anup@ubuntu-22043-desktop-amd64:~$ sudo apt-get update
+anup@ubuntu-22043-desktop-amd64:~$ sudo apt install virtualbox
+
+
+Vagrant Install,
+https://developer.hashicorp.com/vagrant/install
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ wget -O- https://apt.releases.hashicorp.com/gpg | sudo gpg --dearmor -o /usr/share/keyrings/hashicorp-archive-keyring.gpg
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ echo "deb [signed-by=/usr/share/keyrings/hashicorp-archive-keyring.gpg] https://apt.releases.hashicorp.com $(lsb_release -cs) main" | sudo tee /etc/apt
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/vagrant$ sudo apt update && sudo apt install vagrant
+
+
+Windows Installation,
+https://www.vagrantup.com/
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin update
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-vbguest
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-disksize
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-multimachine
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin list
+
+Plugins,
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ vagrant plugin expunge --reinstall
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ vagrant plugin update
+
+
+Server Build,
+https://app.vagrantup.com/boxes/search
+https://app.vagrantup.com/almalinux/boxes/9
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ vagrant init almalinux/9
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ sudo nano Vagrantfile
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ vagrant up
+anup@ubuntu-22043-desktop-amd64:~/DevOps-SRE/YEAR2024/TRAINING2024-Jan01-00/Vagrant$ vagrant box list
+
+
+On Windows,
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant init almalinux/9
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant status
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant up
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant status
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant ssh
+
+[vagrant@localhost ~]$ cat /etc/os-release 
+
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant status
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant reload  
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant halt
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant destroy 
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant global-status
+
+
+On VMware,
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-vmware-desktop
+https://developer.hashicorp.com/vagrant/docs/providers/vmware/vagrant-vmware-utility
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant init almalinux/9
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant up --provider vmware_desktop
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant provision
+
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant box list
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant box remove almalinux/9 --all-providers
+
+
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant global-status --prune
+
+
+[vagrant@localhost tmp]$ sudo cp -R soft_landing/ /var/www/html/
+
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant validate
+
+
+
+
+
+
+
+
+
+
