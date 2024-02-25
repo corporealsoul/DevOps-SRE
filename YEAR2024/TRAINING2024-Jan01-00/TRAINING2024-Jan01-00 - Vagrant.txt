@@ -31,6 +31,7 @@ PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin
 PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-vbguest
 PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-disksize
 PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-multimachine
+PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin install vagrant-winnfsd
 PS D:\GITRepos\DevOps-SRE\YEAR2024\TRAINING2024-Jan01-00\Vagrant> vagrant plugin list
 
 Plugins,
