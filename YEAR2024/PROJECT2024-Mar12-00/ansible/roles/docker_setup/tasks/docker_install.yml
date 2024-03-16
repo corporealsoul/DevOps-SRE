@@ -1,0 +1,43 @@
+---
+- name: Remove existing Docker packages (if any)
+  yum:
+    name:
+      - docker
+      - docker-client
+      - docker-client-latest
+      - docker-common
+      - docker-latest
+      - docker-latest-logrotate
+      - docker-logrotate
+      - docker-engine
+    state: absent
+
+- name: Install yum-utils for repository management
+  yum:
+    name: yum-utils
+    state: present
+
+- name: Add Docker repository
+  yum_repository:
+    name: docker-ce
+    description: Docker CE repository
+    baseurl: https://download.docker.com/linux/centos/docker-ce.repo
+    gpgkey: https://download.docker.com/linux/centos/pubkey
+    state: present
+
+- name: Install Docker Engine, client, and plugins
+  yum:
+    name:
+      - docker-ce
+      - docker-ce-cli
+      - containerd.io
+      - docker-buildx-plugin
+      - docker-compose-plugin
+    state: latest
+
+- name: Start and enable Docker service
+  service:
+    name: docker
+    state: started
+    enabled: yes
+

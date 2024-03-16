@@ -1,0 +1,12 @@
+---
+- name: Create docker group if it doesn't exist
+  group:
+    name: docker
+    state: present
+
+- name: Add current user to the docker group
+  usermod:
+    name: "{{ ansible_user }}"
+    groups: docker
+    append: yes
+  become: yes
