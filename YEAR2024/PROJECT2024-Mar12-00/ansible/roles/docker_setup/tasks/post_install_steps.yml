@@ -6,7 +6,7 @@
     state: present
 
 - name: Add current user to docker group
-  usermod:
+  user:
     name: "{{ ansible_user }}"
     groups: docker
     append: yes
