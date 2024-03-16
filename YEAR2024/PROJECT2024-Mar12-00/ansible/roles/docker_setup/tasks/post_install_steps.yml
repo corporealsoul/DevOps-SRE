@@ -1,12 +1,15 @@
 ---
+
 - name: Create docker group if it doesn't exist
   group:
     name: docker
     state: present
+  become: yes
 
-- name: Add current user to the docker group
+- name: Add the user running the playbook to the docker group (if applicable)
   user:
     name: "{{ ansible_user }}"
     groups: docker
     append: yes
+  when: "'docker' not in ansible_groups"  # Only add if not already in the group
   become: yes

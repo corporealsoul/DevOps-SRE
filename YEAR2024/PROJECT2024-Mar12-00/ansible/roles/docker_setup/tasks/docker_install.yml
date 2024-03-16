@@ -1,43 +1,42 @@
 ---
-- name: Remove existing Docker packages (if any)
-  yum:
-    name:
-      - docker
-      - docker-client
-      - docker-client-latest
-      - docker-common
-      - docker-latest
-      - docker-latest-logrotate
-      - docker-logrotate
-      - docker-engine
-    state: absent
 
-- name: Install yum-utils for repository management
-  yum:
-    name: yum-utils
+- name: Remove old Docker versions (if present)
+  apt:
+    name: "{{ item }}"
+    state: absent
+  with_items:
+    - docker.io
+    - docker-doc
+    - docker-compose
+    - docker-compose-v2
+    - podman-docker
+    - containerd
+    - runc
+
+- name: Update package lists
+  apt:
+    update_cache: yes
+
+- name: Install required dependencies
+  apt:
+    name:
+      - apt-transport-https
+      - ca-certificates
+      - curl
+      - gnupg2
+    state: present
+
+- name: Add Docker GPG key
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
     state: present
 
 - name: Add Docker repository
-  yum_repository:
-    name: docker-ce
-    description: Docker CE repository
-    baseurl: https://download.docker.com/linux/centos/docker-ce.repo
-    gpgkey: https://download.docker.com/linux/centos/pubkey
+  apt_repository:
+    repo: deb [arch=$(dpkg --print-architecture)] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable
     state: present
 
-- name: Install Docker Engine, client, and plugins
-  yum:
-    name:
-      - docker-ce
-      - docker-ce-cli
-      - containerd.io
-      - docker-buildx-plugin
-      - docker-compose-plugin
-    state: latest
-
-- name: Start and enable Docker service
-  service:
-    name: docker
-    state: started
-    enabled: yes
-
+- name: Install Docker packages
+  apt:
+    name: "{{ docker_packages }}"
+    state: present
