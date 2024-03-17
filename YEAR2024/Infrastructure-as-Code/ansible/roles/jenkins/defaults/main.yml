@@ -1,5 +1,6 @@
 ---
 # defaults file for jenkins
 
-jenkins_port: 8080  # Default port for Jenkins
+# Default port for Jenkins
+jenkins_port: 8080  
 

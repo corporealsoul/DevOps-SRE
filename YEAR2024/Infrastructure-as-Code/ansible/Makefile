@@ -14,6 +14,10 @@ java:
 	@sudo apt update
 	@sudo apt install fontconfig openjdk-17-jre
 
+maven:
+	@sudo apt update
+	@sudo apt install maven
 
-all: ansible git java
-.PHONY: ansible git java
+
+all: ansible git java maven
+.PHONY: ansible git java maven
