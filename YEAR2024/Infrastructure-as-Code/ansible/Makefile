@@ -18,6 +18,15 @@ maven:
 	@sudo apt update
 	@sudo apt install maven
 
+SHELL := /bin/bash
+java-env:
+	@unset JAVA_HOME
+	@chmod +x ./scripts/bash/java_environment_variable.sh
+	@./scripts/bash/java_environment_variable.sh
 
-all: ansible git java maven
-.PHONY: ansible git java maven
+maven-env:
+	@chmod +x ./scripts/bash/maven_environment_variable.sh
+	@./scripts/bash/maven_environment_variable.sh
+
+all: ansible git java maven java-env maven-env
+.PHONY: all
