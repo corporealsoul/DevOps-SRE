@@ -1,0 +1,16 @@
+---
+# tasks file for docker
+
+- name: Add docker group
+  become: yes
+  group:
+    name: docker
+    state: present
+
+- name: Add current user to docker group
+  become: yes
+  user:
+    name: "{{ ansible_user }}"
+    groups: docker
+    append: yes
+
