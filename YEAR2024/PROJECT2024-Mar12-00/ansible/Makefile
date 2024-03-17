@@ -4,6 +4,10 @@ ansible-install:
 	@sudo add-apt-repository --yes --update ppa:ansible/ansible
 	@sudo apt install -y ansible
 
-all: ansible-install
+set-git-config:
+	@git config --global user.email "bca.anup@gmail.com"
+	@git config --global user.name "Anup Kumar Mondal"
 
-.PHONY: ansible-install
+all: ansible-install set-git-config
+
+.PHONY: ansible-install set-git-config
