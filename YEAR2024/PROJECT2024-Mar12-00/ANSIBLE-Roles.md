@@ -1,0 +1,1 @@
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible/roles$ ansible-galaxy init docker
