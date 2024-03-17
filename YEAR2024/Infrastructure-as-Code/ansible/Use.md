@@ -7,6 +7,7 @@ anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00$ ansible-invento
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/gather_facts.yml
 
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/docker.yml --become --ask-become-pass
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/docker.yml --become --ask-become-pass -l <server_hostname>
 
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/jenkins.yml --become --ask-become-pass --syntax-check
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/jenkins.yml --become --ask-become-pass --check
@@ -19,4 +20,3 @@ anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansib
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/maven.yml --become --ask-become-pass --syntax-check
 
 
-### Java and Maven Environment Variable
