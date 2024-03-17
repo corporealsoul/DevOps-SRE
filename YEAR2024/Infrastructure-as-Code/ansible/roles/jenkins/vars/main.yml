@@ -1,2 +1,5 @@
 ---
 # vars file for jenkins
+
+# Define custom variables here, for example:
+jenkins_port: 8080

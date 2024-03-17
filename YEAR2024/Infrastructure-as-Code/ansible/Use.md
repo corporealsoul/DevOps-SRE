@@ -5,4 +5,10 @@ anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00$ ansible-invento
 
 ### Run a Playbook
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/gather_facts.yml
-anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/docker_setup.yml --become --ask-become-pass
+
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/PROJECT2024-Mar12-00/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/docker.yml --become --ask-become-pass
+
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/jenkins.yml --become --ask-become-pass --syntax-check
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/jenkins.yml --become --ask-become-pass --check
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/jenkins.yml --become --ask-become-pass
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ sudo systemctl status jenkins.service 
