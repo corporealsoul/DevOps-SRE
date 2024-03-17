@@ -54,3 +54,9 @@
 
 [blueprintsandco]
 192.168.56.104  ansible_ssh_user=anup   ansible_ssh_pass= # Host address, user_name and password
+
+[yellowprintsandco]
+192.168.56.108  ansible_ssh_user=anup   ansible_ssh_pass= # Host address, user_name and password
+
+[blueprintsandco]
+192.168.56.116  ansible_ssh_user=anup   ansible_ssh_pass= # Host address, user_name and password
