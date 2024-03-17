@@ -1,9 +1,7 @@
 ---
-- name: Gather facts from hosts
+- name: Gather facts about remote hosts (default behavior)
   hosts: all
-  gather_facts: yes
-
   tasks:
-    - name: Display gathered facts
+    - name: Print hostname fact
       debug:
-        var: ansible_facts
+        msg: "{{ ansible_hostname }}"
