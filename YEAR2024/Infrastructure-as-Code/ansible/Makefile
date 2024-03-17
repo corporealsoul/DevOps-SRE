@@ -1,13 +1,19 @@
-ansible-install:
+ansible:
 	@sudo apt update
 	@sudo apt install -y software-properties-common
 	@sudo add-apt-repository --yes --update ppa:ansible/ansible
 	@sudo apt install -y ansible
 
-set-git-config:
+git:
+	@sudo apt update
+	@sudo apt install git
 	@git config --global user.email "bca.anup@gmail.com"
 	@git config --global user.name "Anup Kumar Mondal"
 
-all: ansible-install set-git-config
+java:
+	@sudo apt update
+	@sudo apt install fontconfig openjdk-17-jre
 
-.PHONY: ansible-install set-git-config
+
+all: ansible git java
+.PHONY: ansible git java
