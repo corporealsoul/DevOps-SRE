@@ -1,0 +1,6 @@
+---
+- name: For PROJECT2024-Mar12-00 Server
+  hosts: all
+  become: true
+  roles:
+    - docker
