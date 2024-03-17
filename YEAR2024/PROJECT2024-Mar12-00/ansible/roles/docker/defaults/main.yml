@@ -1,2 +1,7 @@
 ---
 # defaults file for docker
+
+container_name_prefix: docker
+container_image: ubuntu
+container_command: sleep 1d
+container_count: 4  # Consider moving this to the main playbook for flexibility
