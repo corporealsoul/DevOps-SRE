@@ -20,3 +20,4 @@ anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansib
 anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/maven.yml --become --ask-become-pass --syntax-check
 
 
+anup@blueprintsandco:~/DevOps-SRE/YEAR2024/Infrastructure-as-Code/ansible$ ansible-playbook -i ./contrib/hosts ./playbooks/kubeadm.yml --become --ask-become-pass -l 192.168.56.104 -vv
