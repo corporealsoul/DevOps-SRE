@@ -1,0 +1,14 @@
+---
+# tasks file for kubeadm
+
+- name: Configure containerd to use systemd cgroup driver
+  blockinfile:
+    path: /etc/containerd/config.toml
+    create: yes
+    block: |
+      {{ containerd_config | indent(4) }}
+      SystemdCgroup = true
+    backup: yes
+  become: yes
+  vars:
+    containerd_config: "{{ lookup('pipe', 'containerd config default') }}"

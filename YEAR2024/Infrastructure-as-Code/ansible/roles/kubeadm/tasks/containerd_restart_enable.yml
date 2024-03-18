@@ -1,0 +1,18 @@
+---
+# tasks file for kubeadm
+
+- name: Manage containerd service
+  service:
+    name: containerd
+    state: restarted
+    enabled: yes
+  become: yes
+- name: Check containerd service status
+  service:
+    name: containerd
+    state: present
+  become: yes
+  register: containerd_status
+- name: Report on containerd service status
+  debug:
+    msg: "containerd service is {{ containerd_status.state }}"

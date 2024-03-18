@@ -1,0 +1,15 @@
+---
+# tasks file for kubeadm
+
+- name: Configure Kubernetes kernel parameters
+  copy:
+    content: |
+      net.bridge.bridge-nf-call-ip6tables = 1
+      net.bridge.bridge-nf-call-iptables = 1
+      net.ipv4.ip_forward = 1
+    dest: /etc/sysctl.d/kubernetes.conf
+    mode: 0644
+
+- name: Reload sysctl settings
+  command: sysctl -p
+  become: yes  # Requires privilege escalation for system-wide reload

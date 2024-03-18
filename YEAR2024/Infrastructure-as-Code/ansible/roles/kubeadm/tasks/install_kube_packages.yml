@@ -1,0 +1,25 @@
+---
+# tasks file for kubeadm
+
+- name: Update package lists
+  apt:
+    update_cache: yes
+    state: present
+
+- name: Install Kubernetes packages
+  apt:
+    name:
+      - kubelet
+      - kubeadm
+      - kubectl
+    state: present
+    become: yes
+
+- name: Mark Kubernetes packages as hold
+  apt_mark:
+    name:
+      - kubelet
+      - kubeadm
+      - kubectl
+    state: hold
+    become: yes

@@ -1,2 +1,12 @@
 ---
 # tasks file for kubeadm
+- include_tasks: update_upgrade.yml
+- include_tasks: disable_swap.yml
+- include_tasks: required_kernel_module.yml
+- include_tasks: critical_kernel_param.yml
+- include_tasks: containerd_dependencies.yml
+- include_tasks: containerd_enable_docker_repo.yml
+- include_tasks: containerd_systemd_as_cgroup.yml
+- include_tasks: containerd_restart_enable.yml
+- include_tasks: add_kubernetes_repo.yml
+- include_tasks: install_kube_packages.yml

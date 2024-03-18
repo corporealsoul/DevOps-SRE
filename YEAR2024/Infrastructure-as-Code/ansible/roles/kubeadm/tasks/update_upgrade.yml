@@ -1,0 +1,9 @@
+---
+# tasks file for kubeadm
+
+- name: Update and upgrade apt packages
+  become: true  # Requires root privileges
+  apt:
+    update_cache: yes  # Update package lists
+    upgrade: dist     # Upgrade all packages to the latest version
+

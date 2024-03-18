@@ -1,0 +1,15 @@
+---
+# tasks file for kubeadm
+
+- name: Install required packages for package management
+  apt:
+    name:
+      - curl
+      - gnupg2
+      - software-properties-common
+      - apt-transport-https
+      - ca-certificates
+    state: present
+    update_cache: yes
+
+

@@ -1,0 +1,20 @@
+---
+# tasks file for kubeadm
+
+- name: Add container modules to /etc/modules-load.d/containerd.conf
+  lineinfile:
+    path: /etc/modules-load.d/containerd.conf
+    state: present
+    create: yes
+    line: "{{ item }}"
+  with_items:
+    - overlay
+    - br_netfilter
+
+- name: Load overlay module
+  command: modprobe overlay
+
+- name: Load br_netfilter module
+  command: modprobe br_netfilter
+
+

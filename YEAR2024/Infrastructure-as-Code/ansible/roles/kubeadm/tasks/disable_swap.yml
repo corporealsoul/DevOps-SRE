@@ -1,0 +1,18 @@
+---
+# tasks file for kubeadm
+
+- name: Disable swap and update /etc/fstab
+  become: true  # Requires root privileges
+
+  # Disable active swap partitions
+  command: swapoff -a
+
+  # Edit /etc/fstab to disable swap on boot
+  lineinfile:
+    path: /etc/fstab
+    regexp: "^\s*\/swap\s*"
+    replace: "# \1"
+
+  # Only modify fstab when swap is active (optional)
+  when: swapon -s  # Checks if swap is active
+
