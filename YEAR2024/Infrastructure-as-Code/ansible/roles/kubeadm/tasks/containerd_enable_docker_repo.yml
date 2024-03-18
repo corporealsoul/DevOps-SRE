@@ -1,24 +1,16 @@
 ---
 # tasks file for kubeadm
 
-- name: Add Docker GPG key and repository
-  become: yes
-  tasks:
-    - name: Download and import Docker GPG key
-      get_url:
-        url: https://download.docker.com/linux/ubuntu/gpg
-        dest: /tmp/docker.gpg
-        mode: 0644
-    - name: Add Docker GPG key
-      command: gpg --dearmor -o /etc/apt/trusted.gpg.d/docker.gpg /tmp/docker.gpg
-      when: not path.exists("/etc/apt/trusted.gpg.d/docker.gpg")
-    - name: Add Docker repository
-      apt_repository:
-        repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
-        state: present
-        update_cache: yes
-  register: docker_repo_added
+- name: Add Docker GPG key
+  become: true
+  apt_key:
+    url: https://download.docker.com/linux/ubuntu/gpg
+    state: present
+    validate_certs: yes
 
-- name: Report on Docker repository addition
-  debug:
-    msg: "Docker repository added successfully: {{ docker_repo_added.changed }}"
+- name: Add Docker repository
+  become: true
+  apt_repository:
+    repo: "deb [arch=amd64] https://download.docker.com/linux/ubuntu {{ ansible_distribution_release }} stable"
+    state: present
+    update_cache: yes
