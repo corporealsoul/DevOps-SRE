@@ -1,0 +1,6 @@
+---
+- name: Install Kubernetes on Ubuntu using Kubeadm
+  hosts: all
+  become: true
+  roles:
+    - kubeadm
