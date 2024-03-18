@@ -1,15 +1,11 @@
 ---
 # tasks file for kubeadm
 
-- name: Turn off swap
+- name: Disable swap
   command: swapoff -a
 
 - name: Comment out swap entry in /etc/fstab
   lineinfile:
     path: /etc/fstab
-    regexp: '^(\s*\S+\s+swap\s+\S+\s+)(\S+.*)$'
-    line: '#\1\2'
-    backup: yes
-
-
-
+    regexp: '^(\s*[^#]+\sswap\s+.*)$'
+    line: '#\1'

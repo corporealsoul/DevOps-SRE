@@ -1,6 +1,7 @@
 ---
 # tasks file for kubeadm
-- include_tasks: update_upgrade.yml
+
+# - include_tasks: update_upgrade.yml
 - include_tasks: disable_swap.yml
 # - include_tasks: required_kernel_module.yml
 # - include_tasks: critical_kernel_param.yml
