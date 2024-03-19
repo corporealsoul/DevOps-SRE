@@ -15,11 +15,17 @@
     - kubeadm
     - kubectl
 
-- name: Mark Kubernetes components on hold
-  apt:
-    name: "{{ item }}"
-    state: hold
-  with_items:
-    - kubelet
-    - kubeadm
-    - kubectl
+- name: Hold kubelet package
+  dpkg_selections:
+    name: kubelet
+    selection: hold
+
+- name: Hold kubeadm package
+  dpkg_selections:
+    name: kubeadm
+    selection: hold
+
+- name: Hold kubectl package
+  dpkg_selections:
+    name: kubectl
+    selection: hold
